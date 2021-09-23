@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	text-align: center;
+	background-color: #ffdfbe;  
+}
+a {
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px 0 grey, 0 6px 20px 0 grey;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+	padding: 15px;
+margin: 3px;
+	font-size: 100%;
+	background-color: #FF8201; 
+	color:  #083057; 
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold
+	
+}
+a:hover {
+	font-size:200%;
+	background-color: #FFAE5B; 
+	color:  #1D85EA; 
+}
+
+h1 {    text-align: center;
+    color: #083057;
+    text-shadow: 1px 1px 1px #aaa;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;}
+
+h2 {text-align: center;
+    color: #083057;
+    text-shadow: 1px 1px 1px #aaa;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;}}
