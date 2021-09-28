@@ -15,6 +15,8 @@ cp.playbarAssetArr =
 	'Glow',
 	'GlowSmall',
 	'Height',
+	'InnerStroke',
+	'InnerStrokeSmall',
 	'Play',
 	'Pause',
 	'Progress',
