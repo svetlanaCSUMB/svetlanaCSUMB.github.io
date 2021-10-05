@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>question2.html</title>
+	<link href="css/koala.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+ 	$(function(){
+ 
+$("#option1").click( function(){
+              $("#feedback").html("<h2 style='color:black'> No. It was not Dale Cooper. </h2>");
+  $("#giant_image").css("display","none");
+});
+ 
+
+$("#option2, #option4").click( function(){
+                  $("#feedback").html("<h2 style='color:black'> You need to watch more Twin Peaks </h2>");
+$("#giant_image").css("display","none");
+});
+ 
+$("#option3").click( function(){
+               $("#feedback").html("<h2 style='color: green'> Correct!   </h2>");
+                        $("#giant_image").css("display","inline");
+});
+  
+});
+ </script>
+
+</head>
+
+<body>
+	<div id="wrapper">
+<h1>Who said that owls are not what they seem in Twin Peaks?</h1>
+<h3>Click on one of the following choices</h3>
+ 
+<h2 id="option1" class="choices"> Agent Cooper </h2>
+<h2 id="option2" class="choices"> Log Lady </h2>
+<h2 id="option3" class="choices"> The Giant </h2>
+<h2 id="option4" class="choices"> Laura Palmer </h2>
+ 
+<div id="feedback"></div>
+<img id="giant_image" src="img/giant.jpg" />
+</div>
+
+</body>
+</html>

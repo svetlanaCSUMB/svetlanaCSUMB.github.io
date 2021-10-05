@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper {
+width: 900px;
+margin: 0 auto;
+text-align: left;
+}
+
+ #koala_image {
+border: black 5px solid;
+}
+
+#owl_image {border-radius: 10px;
+    box-shadow: 0 4px 8px 0 #cbc9d7, 0 6px 20px 0 #cbc9d7;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;}
+ 
+ #bob_image {
+display: none;
+border-radius: 10px;
+    box-shadow: 0 4px 8px 0 #cbc9d7, 0 6px 20px 0 #cbc9d7;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;}
+
+ #giant_image {
+	 display: none;}
+
+
+ 
+body {
+   background-color: #cbc9d7;
+    background-image: url(../img/WelcomeSign6.jpg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-shadow: 0 4px 8px 0 #cbc9d7, 0 6px 20px 0 #cbc9d7;
+}
+
+h1 {font-family: 'Itim', cursive;
+	color: #56506b;
+	font-size: 3em;
+	text-shadow: 2px 2px 2px #aaa;
+}
+
+h3 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	color: #56506b;
+	font-family: 'Itim', cursive;
+	text-shadow: 2px 2px 2px #aaa;
+}
+
+h2 {display: block;
+    font-size: 1.5em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	color: #AF0709;
+	font-family: 'Itim', cursive;
+	text-shadow: 2px 2px 2px #aaa;}
+
+.choices {
+cursor: pointer;
+}
+a {
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px 0 grey, 0 6px 20px 0 grey;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+	padding: 15px;
+margin: 3px;
+	font-size: 100%;
+	background-color: #cbc9d7; 
+	color:  #083057; 
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold
+	
+}
+a:hover {
+	font-size:150%;
+	background-color: #56506B; 
+	color:  #1D85EA; 
+}
