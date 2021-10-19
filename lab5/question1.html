@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Question 1</title>
+	<link href="css/koala.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$( function(){
+$("#owl_image").mouseenter( function(){
+$("#owl_image").css("display","none");
+	$("#bob_image ").css("display","inline");
+	$("#answer").html("<h2>Watch Twin Peaks and you will know the answer!</h2>");
+	
+	
+});
+	
+	$("#bob_image").mouseleave( function(){
+$("#owl_image").css("display","inline");
+$("#bob_image").css("display","none");
+$("#answer").html("");
+});
+
+});
+</script>
+
+</head>
+
+<body>
+	 
+	<div id="wrapper">
+ 
+<h1>The owls are not what they seem</h1>
+<a href="question2.html"> Click here to guess who told the truth about the owls </a>
+<h3 id="hint">Hint: Hover over the image below to find out what owls are!</h3>
+  
+<img id="owl_image"   src="img/owl5.jpg"   />
+ 
+<img id="bob_image" src="img/owlbob.jpg" />
+ 
+           <div id="answer">
+		
+		</div>  <!-- This is a placeholder to display here the answer-->
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+ 
+	
+</div> <!-- closing  “wrapper” -->
+	
+
+</body>
+</html>
