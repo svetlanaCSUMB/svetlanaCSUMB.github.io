@@ -21,20 +21,193 @@
 		<br>
 	<div id="navigation"><a href="page1.html">  Home  </a>
 	<a href="page2.html"> Shortcuts </a>
-	<a href="page3.html">  Data Validation </a>
-	<a href="page4.html"> Speeding Up Data Entry </a>
-	<a href="page5.html">  Practice </a>
-	<a href="page6.html"> Quiz </a>
+	<a href="page3.html">  Video Tutorials </a>
+	<a href="page4.html"> Learning Modules </a>
+	<a href="page5.html">  Job Aids </a>
+	<a href="page6.html"> Test </a>
 	 </div> 
 			<br>
 		<br>
-			<div id="header2">	<h2> Now it's time for practice. Follow all the steps in the eLearning module to create a data validation in-cell dropdown with conditional formatting.</h2>  </div>   
-	<iframe width="900" height="900" background color="transparent" src="lesson2/" frameborder="0" allow="autoplay;" allowfullscreen></iframe>
+			<div id="header2">	<h2> On that page you can find all Job Aids for each module. Click on a button to open Job Aid in a different window. </h2>  </div>   
+	 
 		
 	
 		<br>
 	<br>
 	<br>
+	
+		
+<div id="wrapper">
+  
+	 <br><br>
+	
+	<a target="_blank" href="https://svetlanacsumb.github.io/jobaids/module2.index.html">Module 2: Removing Duplicates Job Aid</a> <br><br><br><br>
+	
+			
+
+    <div id="step1">
+<details open>
+		 <summary class="stepTitle"> Index Function </summary>
+
+
+		<div class="stepContent"> 
+
+		<div class="stepDescription"> Index function simply returns <b>the content of a cell</b>, specified by row and column offset. You can locate a specific cell content by specifying the location of the cell.  <p>
+			<b>Syntax: =INDEX(reference, row number, column number)</b>
+		</div>
+
+		<div class="stepImage"> <img src="../jobaids/img/index1.png" alt="index function" /> 
+			
+		</div>
+
+		</div><!--stepContent-->
+
+    </div><!--step1-->
+	</details>
+	<br>
+<div id="step2">
+<details>
+		<summary class="stepTitle">  Match Function
+		</summary>
+
+		<div class="stepContent"> 
+
+		<div class="stepDescription"> The Match function returns <b>the relative position of an item in a range</b> that matches a specified value. <p>
+			<b>Syntax: =MATCH  (search_key, range, [search_type])</b> <p>
+			
+			<b>search_key</b> - The value to search for.  <p>
+
+<b>range</b> - The one-dimensional array to be searched. <p>
+
+			<b>search_type</b> - [ OPTIONAL - 1 by default ] - The manner in which to search. <p>
+
+1, the default, causes MATCH to assume that the range is sorted in ascending order and return the largest value less than or equal to search_key.<p>
+
+0 indicates exact match, and is required in situations where range is not sorted.
+		</div>
+
+		<div class="stepImage"> <img src="../jobaids/img/match1.png" alt="Match Function" /> 
+		</div>
+
+		</div><!--stepContent-->
+
+    </div><!--step2-->
+	</details>
+	<br>
+
+ 	 <div id="step3">
+<details>
+		<summary class="stepTitle"> Index Match
+		</summary>
+
+		<div class="stepContent"> 
+
+		<div class="stepDescription"> <p>Index Match returns the content of the cell specified by Match function. <strong>=INDEX(reference, MATCH(search_key, range, search_type))</strong>. </p> 
+			
+			reference - The range of cells from which the values are returned.  
+
+search_key - The value to search for.  
+
+range - The one-dimensional array to be searched.
+
+search_type - [ OPTIONAL - 1 by default ] - The manner in which to search.
+		</div>
+
+		<div class="stepImage"> <img src="../lab1new/img/step3.png" alt="Choosing Data Validation" /> 
+		</div>
+
+		</div><!--stepContent-->
+
+
+		 </details>
+		 <br><br><br><br>
+	<a target="_blank" href="https://svetlanacsumb.github.io/jobaids/module3.index.html">Module 3: Counting Data Job Aid</a> <br><br><br><br>
+	
+	<div id="wrapper">
+  
+   
+	
+	 
+	
+			
+
+    <div id="step1">
+<details open>
+		 <summary class="stepTitle"> Countif Function </summary>
+
+
+		<div class="stepContent"> 
+
+		<div class="stepDescription"> <b>Countif</b> simply means “count if”. It counts data that meets <b>one given criterion.</b> <p>
+			<b>Syntax: =COUNTIF(range,criterion)</b> <p>
+			
+			<b>range</b> - The range which is tested against criterion.  <p>
+
+<b>criterion</b> - The pattern or test to apply to a range <p>
+		</div>
+
+		<div class="stepImage"> <img src="../jobaids/img/countif.PNG" alt="countif function" /> 
+			
+		</div>
+
+		</div><!--stepContent-->
+
+    </div><!--step1-->
+	</details>
+	<br>
+<div id="step2">
+<details>
+		<summary class="stepTitle">  Countifs Function
+		</summary>
+
+		<div class="stepContent"> 
+
+		<div class="stepDescription"> The <b>Countifs</b> function returns a conditional count across a range. Countifs allows us to count data that meets <b>multiple criteria.</b>  <p>
+			<b>=COUNTIFS(criteria_range1, criterion1, [criteria_range2, criterion2, ...])</b> <p>
+			
+			<b>criteria_range1</b> - and <b>criterion1</b> - first set of range and criterion <p>
+
+			<b>criteria_range2</b> and
+			<b>criterion2,</b> - second set of range and criterion <p>
+			 
+
+ 
+		</div>
+
+		<div class="stepImage"> <img src="../jobaids/img/countifs.PNG" alt="Countifs Function" /> 
+		</div>
+
+		</div><!--stepContent-->
+
+    </div><!--step2-->
+	</details>
+	<br>
+
+ 	 <div id="step3">
+<details>
+		<summary class="stepTitle"> Countblank Function
+		</summary>
+
+		<div class="stepContent"> 
+
+		<div class="stepDescription"> <p> The <b>Countblank</b> function returns the number of the black cells across given range <strong>=COUNTBLANK(range)</strong>. <p> 
+		<b>range</b> - The range where you want to find blank cells.
+		</div>
+
+		<div class="stepImage"> <img src="../jobaids/img/countblank.PNG" alt="Countblank Function" /> 
+		</div>
+
+		</div><!--stepContent-->
+
+    </div><!--step3-->
+		 </details>
+	<br>
+	 
+</div><!--wrapper-->
+	<br>
+	<br><br>
+	<br>
+	
 			   <a href="page6.html">Next ⇨</a>
 	<br>
 	<br>
