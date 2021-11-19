@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>lab0830</title>
+	
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	<link href="../lab1new/css/jobaid.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+ 
+	
+	</head>
+
+<body>
+	
+	
+<div id="wrapper">
+  
+   
+	 
+		<div id="header">	<h1> Removing duplicates with Index Match</h1>    
+		 
+			 
+		</div>
+	 
+	
+			
+
+    <div id="step1">
+<details open>
+		 <summary class="stepTitle"> Index Function </summary>
+
+
+		<div class="stepContent"> 
+
+		<div class="stepDescription"> Index function simply returns <b>the content of a cell</b>, specified by row and column offset. You can locate a specific cell content by specifying the location of the cell.  <p>
+			<b>Syntax: =INDEX(reference, row number, column number)</b>
+		</div>
+
+		<div class="stepImage"> <img src="../jobaids/img/index1.png" alt="index function" /> 
+			
+		</div>
+
+		</div><!--stepContent-->
+
+    </div><!--step1-->
+	</details>
+	<br>
+<div id="step2">
+<details>
+		<summary class="stepTitle">  Match Function
+		</summary>
+
+		<div class="stepContent"> 
+
+		<div class="stepDescription"> The Match function returns <b>the relative position of an item in a range</b> that matches a specified value. <p>
+			<b>Syntax: =MATCH  (search_key, range, [search_type])</b> <p>
+			
+			<b>search_key</b> - The value to search for.  <p>
+
+<b>range</b> - The one-dimensional array to be searched. <p>
+
+			<b>search_type</b> - [ OPTIONAL - 1 by default ] - The manner in which to search. <p>
+
+1, the default, causes MATCH to assume that the range is sorted in ascending order and return the largest value less than or equal to search_key.<p>
+
+0 indicates exact match, and is required in situations where range is not sorted.
+		</div>
+
+		<div class="stepImage"> <img src="../jobaids/img/match1.png" alt="Match Function" /> 
+		</div>
+
+		</div><!--stepContent-->
+
+    </div><!--step2-->
+	</details>
+	<br>
+
+ 	 <div id="step3">
+<details>
+		<summary class="stepTitle"> Index Match
+		</summary>
+
+		<div class="stepContent"> 
+
+		<div class="stepDescription"> <p><b>Index Match</b> returns the content of the cell specified by Match function. If the content is not present in the range you will see output #N/A. <p> <strong>=INDEX(reference, MATCH(search_key, range, search_type))</strong>. <p> 
+			
+<b>reference</b> - column that we want to check for duplicates. For example, D1:D20 <p>
+
+			<b>search_key</b> -  the first cell in the column, for example, D4, later formula will be applied to the whole column <p>
+
+<b>range</b> - column before cell that contains our search key. In that case before cell D4 <p>
+
+<b>search_type</b> - 0 (because we want an exact match)<p>
+
+<b>$</b> - static indicator. When we will apply the formula all numbers that don’t have static indicator will be changed.
+		</div>
+
+		<div class="stepImage"> <img src="../jobaids/img/indexmatch.PNG" alt="Index Match" /> 
+		</div>
+
+		</div><!--stepContent-->
+
+    </div><!--step3-->
+		 </details>
+	<br>
+	 
+		 
+
+
+</body>
+</html>
