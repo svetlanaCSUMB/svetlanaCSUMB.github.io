@@ -86,10 +86,20 @@
 
 		<div class="stepContent"> 
 
-		<div class="stepDescription"> <p> When you choose Data you will see a drop-down menu with many interesting options. In our case, you need to choose <strong>=INDEX(reference, MATCH(search_key, range, search_type))</strong>. </p> 
+		<div class="stepDescription"> <p><b>Index Match</b> returns the content of the cell specified by Match function. If the content is not present in the range you will see output #N/A. <p> <strong>=INDEX(reference, MATCH(search_key, range, search_type))</strong>. <p> 
+			
+<b>reference</b> - column that we want to check for duplicates. For example, D1:D20 <p>
+
+			<b>search_key</b> -  the first cell in the column, for example, D4, later formula will be applied to the whole column <p>
+
+<b>range</b> - column before cell that contains our search key. In that case before cell D4 <p>
+
+<b>search_type</b> - 0 (because we want an exact match)<p>
+
+<b>$</b> - static indicator. When we will apply the formula all numbers that don’t have static indicator will be changed.
 		</div>
 
-		<div class="stepImage"> <img src="../lab1new/img/step3.png" alt="Choosing Data Validation" /> 
+		<div class="stepImage"> <img src="../jobaids/img/indexmatch.PNG" alt="Index Match" /> 
 		</div>
 
 		</div><!--stepContent-->
