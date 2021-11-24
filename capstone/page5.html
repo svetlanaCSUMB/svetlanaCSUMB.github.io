@@ -39,6 +39,102 @@
 		
 <div id="wrapper">
   
+   
+	  <br><br>
+	
+	<a target="_blank" href="https://svetlanacsumb.github.io/jobaids/module1.index.html">Module 1: Speeding Up Data Entry</a> <br><br><br><br>
+		 
+	
+			
+
+    <div id="step1">
+<details open>
+		 <summary class="stepTitle"> Dropdown List with Data Validation </summary>
+
+
+		<div class="stepContent"> 
+
+		<div class="stepDescription"> To create a <b>dropdown list</b>:<p> 
+			<ul>
+<li>Choose a cell</li>
+<li>Click Data in the top menu</li>
+<li>Choose Data validation in dropdown menu</li>
+<li>Next to Criteria choose  list of items</li>
+<li>Enter your items, separated by comma </li>
+<li>Click save</li>
+</ul>
+
+		</div>
+
+		<div class="stepImage"> <img src="../jobaids/img/validation.PNG" alt="data vallidation" /> 
+			
+		</div>
+
+		</div><!--stepContent-->
+
+    </div><!--step1-->
+	</details>
+	<br>
+<div id="step2">
+<details>
+		<summary class="stepTitle">  Conditional Formatting
+		</summary>
+
+		<div class="stepContent"> 
+
+		<div class="stepDescription"> To apply <b>conditional formatting</b> to your dropdown list:<p> 
+			<ul>
+<li>Choose a cell</li>
+<li>Choose Format in the top menu</li>
+<li>Create Format rules</li>
+<li>Choose color of your choice to your rule</li>
+<li>Add so many rules as your like </li>
+<li>Click save</li>
+</ul>
+
+		</div>
+
+		<div class="stepImage"> <img src="../jobaids/img/formatting.PNG" alt="Match Function" /> 
+		</div>
+
+		</div><!--stepContent-->
+
+    </div><!--step2-->
+	</details>
+	<br>
+
+ 	 <div id="step3">
+<details>
+		<summary class="stepTitle"> Filter View
+		</summary>
+
+		<div class="stepContent"> 
+
+		<div class="stepDescription"> To create a <b>filter view</b>:<p> 
+			<ul>
+<li>Choose a row or a cell</li>
+<li>Click Data in the top menu</li>
+<li>Choose Filter Views in dropdown menu</li>
+<li>Choose Create new filter view</li>
+<li>Name your filter </li>
+
+</ul>
+		</div>
+
+		<div class="stepImage"> <img src="../jobaids/img/filter.PNG" alt="Filter View" /> 
+		</div>
+
+		</div><!--stepContent-->
+
+    </div><!--step3-->
+		 </details>
+	<br>
+	 
+		 
+	
+		
+<div id="wrapper">
+  
 	 <br><br>
 	
 	<a target="_blank" href="https://svetlanacsumb.github.io/jobaids/module2.index.html">Module 2: Removing Duplicates Job Aid</a> <br><br><br><br>
@@ -102,18 +198,20 @@
 
 		<div class="stepContent"> 
 
-		<div class="stepDescription"> <p>Index Match returns the content of the cell specified by Match function. <strong>=INDEX(reference, MATCH(search_key, range, search_type))</strong>. </p> 
+		<div class="stepDescription"> <p><b>Index Match</b> returns the content of the cell specified by Match function. If the content is not present in the range you will see output #N/A. <p> <strong>=INDEX(reference, MATCH(search_key, range, search_type))</strong>. <p> 
 			
-			reference - The range of cells from which the values are returned.  
+<b>reference</b> - column that we want to check for duplicates. For example, D1:D20 <p>
 
-search_key - The value to search for.  
+			<b>search_key</b> -  the first cell in the column, for example, D4, later formula will be applied to the whole column <p>
 
-range - The one-dimensional array to be searched.
+<b>range</b> - column before cell that contains our search key. In that case before cell D4 <p>
 
-search_type - [ OPTIONAL - 1 by default ] - The manner in which to search.
+<b>search_type</b> - 0 (because we want an exact match)<p>
+
+<b>$</b> - static indicator. When we will apply the formula all numbers that don’t have static indicator will be changed.
 		</div>
 
-		<div class="stepImage"> <img src="../lab1new/img/step3.png" alt="Choosing Data Validation" /> 
+		<div class="stepImage"> <img src="../jobaids/img/indexmatch.PNG" alt="Index Match" /> 
 		</div>
 
 		</div><!--stepContent-->
