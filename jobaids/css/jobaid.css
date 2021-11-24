@@ -10,11 +10,13 @@ body {
 
 h1 { 
 	text-align:center;     /* centers h1 and h2 content */
-	color: #083057;
+	color: #FF8201;
 	text-shadow: 1px 1px 1px #aaa;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 48px;
+	font-size: 70px;
+	font-weight: bold
 }
+
 
 h2{ 
 	text-align:center;     /* centers h1 and h2 content */
