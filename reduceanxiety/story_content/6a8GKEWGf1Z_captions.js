@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%203.60.26947.0%0D%0A%0D%0A00:00:00.150%20--%3E%2000:00:04.336%0D%0ALet\u0027s%20review%20some%20healthy%20tips%20that%20will%20help%20you%20avoid%20anxiety%20in%20the%20future.%0D%0A%0D%0A"}')
